@@ -18,6 +18,32 @@ from ch01_text.sec204_textwrap_fill_width import run204_01
 from ch01_text.sec205_textwrap_indent import run205_01, run205_02
 from ch01_text.sec206_textwrap_hanging_indent import run206_01
 from ch01_text.sec207_textwrap_shorten import run207_01
+from ch01_text.sec301_re_simple_match import run301_01
+from ch01_text.sec302_re_simple_compiled import run302_01
+from ch01_text.sec303_re_findall import run303_01, run303_02
+from ch01_text.sec304_re_test_patterns import run304_01, run304_02, run304_03, run304_04, run304_05, run304_06, \
+    run304_07, run304_08, run304_09, run304_10
+from ch01_text.sec305_re_match import run305_01, run305_02, run305_03
+
+
+def run3():
+    # run301_01()
+    # run302_01()
+    # run303_01()
+    # run303_02()
+    # run304_01()
+    # run304_02()
+    # run304_03()
+    # run304_04()
+    # run304_05()
+    # run304_06()
+    # run304_07()
+    # run304_08()
+    # run304_09()
+    # run304_10()
+    # run305_01()
+    # run305_02()
+    run305_03()
 
 
 def run2():
@@ -42,7 +68,8 @@ def run1():
 
 def run():
     # run1()
-    run2()
+    # run2()
+    run3()
 
 
 if __name__ == '__main__':
