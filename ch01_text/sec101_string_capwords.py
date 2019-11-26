@@ -10,7 +10,7 @@
 import string
 
 
-def run_01():
+def run101_01():
     s = 'The quick brown fox jumped over the lazy dog.'
     print(s)
     print(s.capitalize())

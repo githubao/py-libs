@@ -10,7 +10,7 @@
 import string
 
 
-def run_02():
+def run102_01():
     values = {'var': 'foo'}
 
     t = string.Template("""
@@ -37,7 +37,11 @@ Variable in text: {var}iable
     print('FORMAT: ', s.format(**values))
 
 
-def run_02_02():
+def run102_02():
+    """
+    string_template_missing
+    :return:
+    """
     values = {'var': 'foo'}
 
     t = string.Template('$var is here but $missing is not provided')
