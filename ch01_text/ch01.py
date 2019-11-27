@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 """
-@description: 
+@description: text
 
 @author: baoqiang
 @time: 2019/11/25 10:04 下午
@@ -24,6 +24,9 @@ from ch01_text.sec303_re_findall import run303_01, run303_02
 from ch01_text.sec304_re_test_patterns import run304_01, run304_02, run304_03, run304_04, run304_05, run304_06, \
     run304_07, run304_08, run304_09, run304_10
 from ch01_text.sec305_re_match import run305_01, run305_02, run305_03
+from ch01_text.sec306_re_group import run306_01, run306_02, run306_03, run306_04, run306_05, run306_06, run306_07
+from ch01_text.sec307_re_flags import run307_01, run307_02, run307_03, run307_04, run307_05, run307_06, run307_07, \
+    run307_08
 
 
 def run3():
@@ -43,7 +46,22 @@ def run3():
     # run304_10()
     # run305_01()
     # run305_02()
-    run305_03()
+    # run305_03()
+    # run306_01()
+    # run306_02()
+    # run306_03()
+    # run306_04()
+    # run306_05()
+    # run306_06()
+    # run306_07()
+    # run307_01()
+    # run307_02()
+    # run307_03()
+    # run307_04()
+    # run307_05()
+    # run307_06()
+    # run307_07()
+    run307_08()
 
 
 def run2():
