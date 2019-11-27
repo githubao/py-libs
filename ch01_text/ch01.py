@@ -27,6 +27,16 @@ from ch01_text.sec305_re_match import run305_01, run305_02, run305_03
 from ch01_text.sec306_re_group import run306_01, run306_02, run306_03, run306_04, run306_05, run306_06, run306_07
 from ch01_text.sec307_re_flags import run307_01, run307_02, run307_03, run307_04, run307_05, run307_06, run307_07, \
     run307_08
+from ch01_text.sec401_difflib_differ import run401_01, run401_02
+from ch01_text.sec402_difflib_junk import run402_01
+from ch01_text.sec403_difflib_seq import run403_01
+
+
+def run4():
+    run401_01()
+    run401_02()
+    run402_01()
+    run403_01()
 
 
 def run3():
@@ -88,6 +98,7 @@ def run():
     # run1()
     # run2()
     run3()
+    # run4()
 
 
 if __name__ == '__main__':
