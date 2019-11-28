@@ -22,14 +22,29 @@ from ch02_data_structures.sec206_collections_ordereddict import run206_01, run20
 from ch02_data_structures.sec207_collections_abc import run207_01
 from ch02_data_structures.sec301_array import run301_01, run301_02, run301_03, run301_04, run301_05, run301_06
 from ch02_data_structures.sec401_heapq import run401_01, run401_02, run401_03, run401_04, run401_05, run401_06
+from ch02_data_structures.sec501_bisect import run501_01, run501_02
+from ch02_data_structures.sec601_queue import run601_01, run601_02, run601_03
+from ch02_data_structures.sec604_fetch_podcasts import run604_01
+
+
+def run06():
+    # run601_01()
+    # run601_02()
+    # run601_03()
+    run604_01()
+
+
+def run05():
+    run501_01()
+    run501_02()
 
 
 def run04():
-    # run401_01()
-    # run401_02()
-    # run401_03()
-    # run401_04()
-    # run401_05()
+    run401_01()
+    run401_02()
+    run401_03()
+    run401_04()
+    run401_05()
     run401_06()
 
 
@@ -91,7 +106,9 @@ def run():
     # run01()
     # run02()
     # run03()
-    run04()
+    # run04()
+    # run05()
+    run06()
 
 
 if __name__ == '__main__':
