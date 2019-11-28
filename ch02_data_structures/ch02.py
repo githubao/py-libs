@@ -20,37 +20,57 @@ from ch02_data_structures.sec205_collections_namedtuple import run205_01, run205
     run205_06
 from ch02_data_structures.sec206_collections_ordereddict import run206_01, run206_02, run206_03
 from ch02_data_structures.sec207_collections_abc import run207_01
+from ch02_data_structures.sec301_array import run301_01, run301_02, run301_03, run301_04, run301_05, run301_06
+from ch02_data_structures.sec401_heapq import run401_01, run401_02, run401_03, run401_04, run401_05, run401_06
+
+
+def run04():
+    # run401_01()
+    # run401_02()
+    # run401_03()
+    # run401_04()
+    # run401_05()
+    run401_06()
+
+
+def run03():
+    run301_01()
+    run301_02()
+    run301_03()
+    run301_04()
+    run301_05()
+    run301_06()
 
 
 def run02():
-    # run201_01()
-    # run201_02()
-    # run201_03()
-    # run201_04()
-    # run201_05()
-    # run201_06()
-    # run202_01()
-    # run202_02()
-    # run202_03()
-    # run202_04()
-    # run202_05()
-    # run202_06()
-    # run203_01()
-    # run204_01()
-    # run204_02()
-    # run204_03()
-    # run204_04()
-    # run204_05()
-    # run204_06()
-    # run205_01()
-    # run205_02()
-    # run205_03()
-    # run205_04()
-    # run205_05()
-    # run205_06()
-    # run206_01()
-    # run206_02()
-    # run206_03()
+    run201_01()
+    run201_02()
+    run201_03()
+    run201_04()
+    run201_05()
+    run201_06()
+    run202_01()
+    run202_02()
+    run202_03()
+    run202_04()
+    run202_05()
+    run202_06()
+    run203_01()
+    run204_01()
+    run204_02()
+    run204_03()
+    run204_04()
+    run204_05()
+    run204_06()
+    run205_01()
+    run205_02()
+    run205_03()
+    run205_04()
+    run205_05()
+    run205_06()
+    run206_01()
+    run206_02()
+    run206_03()
     run207_01()
 
 
@@ -69,7 +89,9 @@ def run01():
 
 def run():
     # run01()
-    run02()
+    # run02()
+    # run03()
+    run04()
 
 
 if __name__ == '__main__':
