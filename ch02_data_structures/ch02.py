@@ -7,6 +7,8 @@
 @author: baoqiang
 @time: 2019/11/27 6:06 下午
 """
+from ch02_data_structures.sec1001_pprint import run1001_01, run1001_06, run1001_02, run1001_03, run1001_04, run1001_05, \
+    run1001_07
 from ch02_data_structures.sec101_enum_create import run101_01, run101_02, run101_03, run101_04, run101_05, run101_06, \
     run101_07, run101_08, run101_09, run101_10
 from ch02_data_structures.sec201_collections_chainmap import run201_01, run201_02, run201_03, run201_04, run201_05, \
@@ -25,12 +27,50 @@ from ch02_data_structures.sec401_heapq import run401_01, run401_02, run401_03, r
 from ch02_data_structures.sec501_bisect import run501_01, run501_02
 from ch02_data_structures.sec601_queue import run601_01, run601_02, run601_03
 from ch02_data_structures.sec604_fetch_podcasts import run604_01
+from ch02_data_structures.sec701_struct_pack import run701_01, run701_02, run701_03, run701_04
+from ch02_data_structures.sec801_weakref import run801_01, run801_02, run801_03, run801_04, run801_05, run801_06, \
+    run801_07
+from ch02_data_structures.sec901_copy import run901_01, run901_02, run901_03, run901_04
+
+
+def run10():
+    run1001_01()
+    run1001_02()
+    run1001_03()
+    run1001_04()
+    run1001_05()
+    run1001_06()
+    run1001_07()
+
+
+def run09():
+    run901_01()
+    run901_02()
+    run901_03()
+    run901_04()
+
+
+def run08():
+    run801_01()
+    run801_02()
+    run801_03()
+    run801_04()
+    run801_05()
+    run801_06()
+    run801_07()
+
+
+def run07():
+    run701_01()
+    run701_02()
+    run701_03()
+    run701_04()
 
 
 def run06():
-    # run601_01()
-    # run601_02()
-    # run601_03()
+    run601_01()
+    run601_02()
+    run601_03()
     run604_01()
 
 
@@ -108,7 +148,11 @@ def run():
     # run03()
     # run04()
     # run05()
-    run06()
+    # run06()
+    # run07()
+    # run08()
+    # run09()
+    run10()
 
 
 if __name__ == '__main__':
