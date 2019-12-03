@@ -57,19 +57,3 @@ def run203_05():
 
     for i in map(lambda x, y: (x, y, x * y), repeat(2), range(5)):
         print('{:d} * {:d} = {:d}'.format(*i))
-
-
-def run203_06():
-    pass
-
-
-def run203_07():
-    pass
-
-
-def run203_08():
-    pass
-
-
-def run203_09():
-    pass
