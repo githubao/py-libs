@@ -17,28 +17,27 @@ from ch04_time.sec301_calendar import run301_01, run301_02, run301_03, run301_04
 
 
 def run03():
-    pass
+    run301_01()
+    run301_02()
+    run301_03()
+    run301_04()
 
 
 def run02():
-    # run201_01()
-    # run201_02()
-    # run201_03()
-    # run201_04()
-    # run201_05()
-    # run203_01()
-    # run203_02()
-    # run203_03()
-    # run203_04()
-    # run206_01()
-    # run206_02()
-    # run207_01()
-    # run207_02()
-    # run207_04()
-    # run301_01()
-    # run301_02()
-    # run301_03()
-    run301_04()
+    run201_01()
+    run201_02()
+    run201_03()
+    run201_04()
+    run201_05()
+    run203_01()
+    run203_02()
+    run203_03()
+    run203_04()
+    run206_01()
+    run206_02()
+    run207_01()
+    run207_02()
+    run207_04()
 
 
 def run01():
@@ -54,7 +53,7 @@ def run01():
 
 
 def run():
-    # run01()
+    run01()
     run02()
     run03()
 

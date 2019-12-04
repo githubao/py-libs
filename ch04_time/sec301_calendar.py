@@ -9,7 +9,6 @@
 """
 
 import calendar
-import sys
 from pprint import pprint
 
 
