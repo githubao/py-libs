@@ -16,26 +16,44 @@ from ch05_mathematics.sec307_random_custom import run307_01, run307_02
 from ch05_mathematics.sec401_math_const import run401_01, run401_02, run401_03, run401_04, run401_05
 from ch05_mathematics.sec403_math_compare import run403_01, run403_02, run403_03
 from ch05_mathematics.sec404_math_convert import run404_01, run404_02, run404_03, run404_04, run404_05
+from ch05_mathematics.sec407_math_funcs import run407_01, run407_02, run407_03, run407_04, run407_05, run407_06, \
+    run407_07
+from ch05_mathematics.sec409_math_angle import run409_01, run409_02, run409_03, run409_04, run409_05, run409_06
+from ch05_mathematics.sec501_mathematics_statics import run501_01, run501_02
 
 
 def run05():
-    pass
+    run501_01()
+    run501_02()
 
 
 def run04():
-    # run401_01()
-    # run401_02()
-    # run401_03()
-    # run401_04()
-    # run401_05()
-    # run403_01()
-    # run403_02()
-    # run403_03()
-    # run404_01()
-    # run404_02()
-    # run404_03()
-    # run404_04()
+    run401_01()
+    run401_02()
+    run401_03()
+    run401_04()
+    run401_05()
+    run403_01()
+    run403_02()
+    run403_03()
+    run404_01()
+    run404_02()
+    run404_03()
+    run404_04()
     run404_05()
+    run407_01()
+    run407_02()
+    run407_03()
+    run407_04()
+    run407_05()
+    run407_06()
+    run407_07()
+    run409_01()
+    run409_02()
+    run409_03()
+    run409_04()
+    run409_05()
+    run409_06()
 
 
 def run03():
@@ -72,9 +90,9 @@ def run01():
 
 
 def run():
-    # run01()
-    # run02()
-    # run03()
+    run01()
+    run02()
+    run03()
     run04()
     run05()
 
